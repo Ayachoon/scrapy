@@ -1,2 +1,2 @@
 # scrapy
-Examples of code using scrapy
+Example of code using scrapy to scrape amazon reviews. 
