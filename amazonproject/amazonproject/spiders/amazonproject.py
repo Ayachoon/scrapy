@@ -30,12 +30,4 @@ class AmazonCrawlerSpider(scrapy.Spider):
             )
 
 
-            # next_page = response.xpath("//li[@class='a-last']/a/@href").get()
-            # if next_page:
-            #     yield scrapy.Request(
-            #         url=next_page,
-            #         callback=self.parse
-            #     )
-            #next_page='https://www.amazon.co.uk/Clearasil-Ultra-Rapid-Action-Treatment/product-reviews/B001AUHG42/ref=cm_cr_getr_d_paging_btm_next_' + str(AmazonprojectSpider.pagenumber) + '?ie=UTF8&reviewerType=all_reviews&pageNumber='+ str(AmazonprojectSpider.pagenumber)
-            #if AmazonprojectSpider.pagenumber <= 5:
-                #yield response.follow(next_page,callback=self.parse)
+          
